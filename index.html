@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egypt air</title>
+     <!-- bootstrab -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+ <!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+ <!-- css link -->
+ 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body onload=" fillHtml()">
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+                <ul>
+                    <li>Home</li>
+                    <li>Contact us</li>
+                    <li>Book</li>
+                    <li>Flights</li>
+                 
+                </ul>
+           
+        </nav>
+        <div class="container-fluid mt-5 ">
+            <div class="row align-items-center pl-md-5">
+                <div class="text col-xl-7 col-md-8 col-sm-10 col-12 mt-5" >
+                    <h1>Life Is Short And The World Is Wide!</h1>
+                    <p> to get the best of your adventure you just need to leave and go where you like ..
+                        we are waiting for you.
+                    </p>
+                    <button> Book Now</button>
+                </div>
+            </div>
+        </div>
+        
+       
+    </header>
+    <div class="title d-flex justify-content-center align-items-center my-5 mx-auto">
+        <h2>Book a Flight Destnation   </h2> <i class="fa-solid fa-plane-arrival ml-3"></i>
+    </div>
+   
+<section class="country-selection" >
+   
+    <div class="destnation">
+        <div id="1" class="country">
+         
+            <div class="key">
+                <p>Name</p>
+                <p>Capital</p>             
+                <p>Currency</p>
+                <p>Region</p>
+            </div>
+            <div class="value">
+                <p id="name"> </p>
+                <p id="capital"></p>               
+                <p id="cur"></p>
+                <p id="region"> </p>
+            </div>
+            <div class="booking-btn">
+                <a href="flight-selected.html?countryID=1" target="blank">Book a Flight</a>
+             
+            </div>
+        </div>
+        <div id="2" class="country">
+            <div class="key">
+                <p>Name</p>
+                <p>Capital</p>             
+                <p>Currency</p>
+                <p>Region</p>
+            </div>
+            <div class="value">
+                <p id="name"> </p>
+                <p id="capital"></p>               
+                <p id="cur"></p>
+                <p id="region"> </p>
+            </div>
+            <div class="booking-btn">
+                <a href="flight-selected.html?countryID=2" target="blank">Book a Flight</a>
+             
+            </div>
+        </div>
+        <div id="3" class="country">
+            <div class="key">
+                <p>Name</p>
+                <p>Capital</p>             
+                <p>Currency</p>
+                <p>Region</p>
+            </div>
+            <div class="value">
+                <p id="name"> </p>
+                <p id="capital"></p>               
+                <p id="cur"></p>
+                <p id="region"> </p>
+            </div>
+            <div class="booking-btn">
+                <a href="flight-selected.html?countryID=3" target="blank">Book a Flight</a>
+             
+            </div>
+        </div>
+        <div id="4" class="country">
+            <div class="key">
+                <p>Name</p>
+                <p>Capital</p>             
+                <p>Currency</p>
+                <p>Region</p>
+            </div>
+            <div class="value">
+                <p id="name"> </p>
+                <p id="capital"></p>               
+                <p id="cur"></p>
+                <p id="region"> </p>
+            </div>
+            <div class="booking-btn">
+                <a href="flight-selected.html?countryID=4" target="blank">Book a Flight</a>
+            </div>
+        </div>
+        <div id="5" class="country">
+            <div class="key">
+                <p>Name</p>
+                <p>Capital</p>             
+                <p>Currency</p>
+                <p>Region</p>
+            </div>
+            <div class="value">
+                <p id="name"> </p>
+                <p id="capital"></p>               
+                <p id="cur"></p>
+                <p id="region"> </p>
+            </div>
+            <div class="booking-btn">
+                <a href="flight-selected.html?countryID=5" target="blank">Book a Flight</a>
+                      </div>
+        </div>
+        <div id="6" class="country">
+            <div class="key">
+                <p>Name</p>
+                <p>Capital</p>             
+                <p>Currency</p>
+                <p>Region</p>
+            </div>
+            <div class="value">
+                <p id="name"> </p>
+                <p id="capital"></p>               
+                <p id="cur"></p>
+                <p id="region"> </p>
+            </div>
+            <div class="booking-btn">
+                <a href="flight-selected.html?countryID=6" target="blank">Book a Flight</a>
+             
+            </div>
+        </div>
+       
+    </div>
+</section>
+<!-- <section class="user-data text-center">
+ <div class="container">
+    <div id="selected" class="country mb-5"></div>
+    <form action="#" class=" m-auto row d-block mt-5">
+        <input type="text" class="form-control " name="fname" id="f-name" placeholder="First Name">
+        <input type="text" class="form-control " name="lname" id="l-name" placeholder="Last Name">
+        <input type="email"  class="form-control " name="email" id="email" placeholder="E-mail">
+        <input type="date" class="form-control  " name="birthday" id="birthday" oninput="calAge()">
+        <label for="birthday"  class="form-control text-left " id="age" ></label>
+        <input type="text" class="form-control " name="country" id="user-country" placeholder="Country">
+        <select class="form-control ">
+            <option selected hidden>Choose here</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+        </select>
+        <button onclick="showSummery()"> Send </button>
+    </form>
+
+ </div>
+</section> -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+</script>
+    <script src="js/main.js"></script>
+</body>
+</html>
